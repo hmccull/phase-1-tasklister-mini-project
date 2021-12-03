@@ -7,11 +7,19 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(gray, black);
 }
 
 button {
-  font-size: 7px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  background-color: rgb(63, 63, 63);
+  font-size: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  color: white;
 }
 
 #main-content {
@@ -34,4 +42,14 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+li {
+  margin: 20px;
+  list-style: circle;
+}
+
+select {
+  margin-left: 10px;
+  margin-right: 10px
 }
